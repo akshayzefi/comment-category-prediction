@@ -34,12 +34,15 @@ With Class 0 dominating at ~58% of samples, a naive model that always predicts C
 
 ## Repository Structure
 comment-category-prediction/
-├── notebooks/
-│   └── comment_category_prediction.ipynb
-├── README.md
-├── requirements.txt
-└── .gitignore
-
+- notebooks/
+  - comment_category_prediction.ipynb
+- data/
+  - Sample.csv
+  - test.csv
+  - train.csv
+- README.md
+- requirements.txt
+- .gitignore
 ## Setup
 
 ```bash
